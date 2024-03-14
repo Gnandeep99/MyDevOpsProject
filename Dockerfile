@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/hello-world-1.0-SNAPSHOT.jar /app
 
 # Expose the port your application listens on (if needed)
-# EXPOSE <port>
+ EXPOSE 8080
 
 # Command to run your application
 CMD ["java", "-jar", "hello-world-1.0-SNAPSHOT.jar"]
